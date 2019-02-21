@@ -7,8 +7,13 @@ class Book
   attr_accessor :author
   attr_accessor :genre 
   
-  def page_count(number)
+  def page_count=(number)
+    @page_count = number
 end
-  
+
+def page_count(number)
+  number
+end
+
 end
 
