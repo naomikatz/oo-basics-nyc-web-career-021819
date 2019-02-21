@@ -16,7 +16,7 @@ def page_count
 end
 
 def turn_page
-  1.times puts "Flipping the page...wow, you read fast!"
+  puts "Flipping the page...wow, you read fast!"
 end
 
 end
