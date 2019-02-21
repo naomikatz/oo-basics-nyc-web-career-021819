@@ -15,7 +15,8 @@ def page_count
   @page_count
 end
 
-def turn_page
+def turn_page(number)
+  puts "Flipping the page...wow, you read fast!"
 end
 
 end
