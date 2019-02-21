@@ -4,7 +4,7 @@ class Shoe
     @brand = brand
   end
   
-  attr_accessor :title 
+  attr_accessor :brand
   attr_accessor :author
   attr_accessor :genre 
   
